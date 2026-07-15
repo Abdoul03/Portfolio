@@ -35,29 +35,29 @@ const PORTFOLIO = {
   ],
   skills: [
     { key: "frontend", title: { fr: "Frontend", en: "Frontend" }, items: ["React", "Angular", "React Native", "Flutter", "Ionic", "HTML5", "CSS3"] },
-    { key: "backend", title: { fr: "Backend", en: "Backend" }, items: ["Spring Boot", "Node.js", "Express.js", "REST API"] },
+    { key: "backend", title: { fr: "Backend", en: "Backend" }, items: ["Spring Boot", "Node.js", "Express.js", "REST API", "NestJS"] },
     { key: "lang", title: { fr: "Langages", en: "Languages" }, items: ["Java", "JavaScript", "TypeScript", "Dart", "Python", "UML"] },
     { key: "tools", title: { fr: "Outils & Design", en: "Tools & Design" }, items: ["MongoDB", "MySQL", "WordPress", "Figma", "Canva", "Git"] },
   ],
   projects: [
     {
-      name: "Location de véhicules",
-      stack: "Angular · Spring Boot",
-      lang: "Java",
-      url: "https://github.com/Abdoul03",
+      name: "Kle",
+      stack: "NestJS · Flutter ",
+      lang: "TypeScript · Dart",
+      url: "https://github.com/Abdoul03/Kle_backend",
       desc: {
         fr: "Plateforme de location de véhicules : catalogue de voitures, réservation par dates, gestion des disponibilités et des clients.",
         en: "Vehicle rental platform: car catalog, date-based booking, availability management and customer handling.",
       },
-      tags: ["Angular", "Spring Boot", "Booking"],
+      tags: ["NestJS", "Spring Boot", "Booking"],
     },
     {
       name: "Deez",
-      stack: "Flutter · Node.js",
-      lang: "Dart",
-      url: "https://github.com/Abdoul03/deez",
+      stack: "Flutter · Spring Boot",
+      lang: "Dart · Java",
+      url: "https://github.com/Abdoul03/Dealz",
       desc: {
-        fr: "Application de revente d'objets d'occasion entre particuliers, dans l'esprit de Vinted : dépôt d'annonces, recherche par catégorie, messagerie et transactions sécurisées.",
+        fr: "Application de revente d'objets d'occasion entre particuliers : dépôt d'annonces, recherche par catégorie, messagerie et transactions sécurisées.",
         en: "Peer-to-peer marketplace for second-hand items, in the spirit of Vinted: listings, category search, messaging and secure transactions.",
       },
       tags: ["Flutter", "Marketplace", "Mobile"],
@@ -161,7 +161,7 @@ const PORTFOLIO = {
   languages: [
     { name: { fr: "Bambara", en: "Bambara" }, level: { fr: "Langue maternelle", en: "Native" }, pct: 100 },
     { name: { fr: "Français", en: "French" }, level: { fr: "Courant", en: "Fluent" }, pct: 95 },
-    { name: { fr: "Anglais", en: "English" }, level: { fr: "Intermédiaire", en: "Intermediate" }, pct: 65 },
+    { name: { fr: "Anglais", en: "English" }, level: { fr: "Intermédiaire", en: "Intermediate" }, pct: 50 },
   ],
   ui: {
     nav: {
