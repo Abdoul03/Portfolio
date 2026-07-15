@@ -9,7 +9,7 @@ const PORTFOLIO = {
     phone: "+223 71 26 78 13",
     github: "https://github.com/Abdoul03",
     linkedin: "https://www.linkedin.com/in/doul/",
-    cv: "/cv.pdf",
+    cv: "cv.pdf",
     role: { fr: "Développeur Full Stack", en: "Full Stack Developer" },
     tagline: {
       fr: "Je conçois des applications web & mobiles complètes — du backend Spring Boot & Node aux interfaces React & Flutter.",

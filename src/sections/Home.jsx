@@ -18,7 +18,7 @@ export default function Home({ data, t, u, goProjects }) {
           <button className="tp-btn-primary" onClick={goProjects}>
             {u.viewProjects} →
           </button>
-          <a className="tp-btn-ghost" href={p.cv} download>
+          <a className="tp-btn-ghost" href={import.meta.env.BASE_URL + p.cv} download>
             ↓ {u.downloadCv}
           </a>
         </div>
